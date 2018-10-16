@@ -11,7 +11,7 @@ class Anagram
       word.split("").sort == !possible.split("").sort
     end
     possible_anagrams
-    binding.pry
+    #binding.pry
   end
 end
 
