@@ -15,12 +15,12 @@ class Anagram
   end
 end
 
-def match(possible_anagrams)
-    anagrams = []
-    possible_anagrams.each do |possible|
-      if word.split("").sort == possible.split("").sort
-        anagrams << possible
+#def match(possible_anagrams)
+   # anagrams = []
+    #possible_anagrams.each do |possible|
+      #if word.split("").sort == possible.split("").sort
+       # anagrams << possible
         #binding.pry
-      end
-    end
-  end
+      #end
+    #end
+  #end
