@@ -10,7 +10,7 @@ class Anagram
     possible_anagrams.delete_if do |possible|
       word.split("").sort != possible.split("").sort
     end
-    binding.pry
+    #binding.pry
     possible_anagrams
   end
 end
