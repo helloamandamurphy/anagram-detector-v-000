@@ -8,10 +8,11 @@ class Anagram
 
   def match(possible_anagrams)
     possible_anagrams.delete_if do |possible|
+      binding.pry
       word.split("").sort == !possible.split("").sort
     end
     possible_anagrams
-    #binding.pry
+    
   end
 end
 
